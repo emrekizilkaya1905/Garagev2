@@ -89,8 +89,14 @@ The garage stores vehicles in a private `List<Vehicle>`. Garage capacity is a se
 
 Garage data is stored in memory for the current session. Closing the application discards the data. File persistence and multiple garages are not implemented.
 
+## Jag vill ha feedback på
 
+Granska gärna branchen `review/garage-v2`. Jag önskar feedback på följande frågor:
 
+- Är ansvarsfördelningen mellan UI-klasserna och `Garage` tydlig?
+- Är `Vehicle` och dess subklasser utformade på ett bra sätt?
+- Använder jag `List<Vehicle>` och hanterar garagets kapacitet korrekt?
+- Fungerar sökning med flera valfria kriterier som förväntat?
+- Är hanteringen av felaktig inmatning, ogiltiga registreringsnummer, dubbla registreringsnummer och fullt garage tillräckligt robust?
 
-
-
+Ge gärna konkreta exempel med filnamn, metod och förbättringsförslag. Om du hittar en bugg, beskriv stegen för att återskapa den samt förväntat och faktiskt resultat.
